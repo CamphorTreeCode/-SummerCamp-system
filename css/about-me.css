@@ -1,0 +1,64 @@
+.head label{
+	display: inline-block;
+	width: 4.5rem;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 1rem;
+	margin: 0 2.25rem;
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+
+.head {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.head-img {  
+	width: 88%;
+	height: 8.5rem;
+	background: #fff; 
+	margin-bottom: 0.1rem; 
+	padding: 0.5rem 1rem;
+	
+}
+.head img {
+	width: 2rem;
+	height: 2rem;
+	margin: 2rem;
+}
+.wrap {
+	width: 6rem;
+	height: 6rem;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #C4807F;
+	margin: 0.8rem;
+	cursor: pointer;
+}
+
+
+
+
+
+
+p {
+	text-align: right;
+	color: #999999;
+	margin: 0.75rem 1.5rem 1.5rem 0;
+}
+.save {
+	font-size: 0.9rem;
+	padding: 0.5rem 2rem;
+	background: #8A0000;
+	color: #fff;
+	border-radius: 0.3rem;
+	outline: none;
+	float: right;
+	margin: 1rem 1rem;
+	border: 0;
+}
+.save {
+	margin-right: 1.5rem;
+}

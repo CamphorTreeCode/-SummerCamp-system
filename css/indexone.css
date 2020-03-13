@@ -1,0 +1,264 @@
+body{
+	background: url(../img/background.png);
+}
+
+.container{
+	width:100%;
+	height:100%;
+	}
+a{
+	text-decoration: none;
+	color: #c2c2c2;
+}
+.left{
+	float: right;
+	height:auto !important;
+	position:fixed;
+	height:100% !important;
+	background-color:#111;
+	padding: 0;
+}
+
+.leftTop{
+	width: 100%;
+	height: 9rem;
+	color: #fff;
+	position: relative;
+	border-bottom: 1px solid #454d58;
+	background: #111;
+}
+.logo{
+	width: 4.1rem;
+	height: 4.1rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -3rem;
+	left: 50%;
+	margin-left: -2.1rem;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	margin-top: 20%;
+	left: 50%;
+	margin-left: -45%;
+	text-align: center;
+	
+}
+/*left*/
+.leftsidebar_box{
+	height:auto !important;
+	overflow:visible !important;
+	height:100% !important;
+}
+.leftsidebar_box dt{
+	padding-left:2rem;
+	background-repeat:no-repeat;
+	background-position:0.5rem center;
+	color:#c2c2c2;
+	font-size:0.8rem;
+	position:relative;
+	line-height:2.4rem;
+	cursor:pointer;
+	border-left: 0.25rem solid #111;
+	overflow: hidden;
+	
+	}
+.custom .we,.custom .sencod_dd,.syetem_management .you,.syetem_management .me,.syetem_management .out,.syetem_management .my,.custom .wes,.custom .sencod_dds,.syetem_management .yous,.syetem_management .mes,.syetem_management .outs,.syetem_management .mys{
+	background-repeat:no-repeat;
+	background-position:0.5rem center;
+	font-size:0.7rem;
+	line-height:2.4rem;
+	background-position:0.5rem center;
+	border-left: 0.25rem solid #111;
+	cursor:pointer;
+	}
+.leftsidebar_box dd{
+	background-color:#111;
+	margin-left:1.5rem;
+	padding-left: 2rem;
+	overflow: hidden;
+	}
+.leftsidebar_box dd a{
+	color:#c2c2c2;
+	line-height:1rem;
+	text-decoration: none;	}
+.leftsidebar_box dt img{
+	position:absolute;
+	right: 1rem;
+	top:50%;
+	margin-top: -0.4rem;
+}
+	/*项目管理*/
+.dtt{
+	background-image:url(../img/shuju.png);
+	}
+.dtts{
+	background-image: url(../img/shuju1.png);
+}
+	/*项目查询*/
+.we{
+	background-image:url(../img/sousuo1.png);
+	}
+.wes{
+	background-image: url(../img/sousuoone.png);
+}
+	/*项目发布*/
+.sencod_dd{
+	background-image:url(../img/shangchuan.png);
+	}	
+.sencod_dds{
+	background-image: url(../img/shangchuan1.png);
+}
+/*报名表管理*/
+.ddt{
+	background-image:url(../img/jibenxinxi.png);
+	}
+.ddts{
+	background-image: url(../img/jibenxinxi1.png);
+}
+/*会员管理*/
+.con{
+	background-image:url(../img/zhanshi.png);
+	}
+.cons{
+	background-image: url(../img/zuanshi.png);
+}
+/*留言管理*/
+.cont{
+	background-image:url(../img/xinxi.png);
+	}
+.conts{
+	background-image: url(../img/xinxi1.png);
+}
+	/*界面管理*/
+.sun{
+	background-image:url(../img/jiemian.png);
+	}
+.suns{
+	background-image: url(../img/jiemian1.png);
+}
+	/*首页banner*/
+.you{
+	background-image:url(../img/lunbo.png);
+	}
+.yous{
+	background-image: url(../img/lunbo1.png);
+}	
+	/*首页精选项目*/
+.me{
+	background-image:url(../img/xing.png);
+	}
+.mes{
+	background-image:url(../img/xing1.png);
+	}
+	/*公司简介*/
+.out{
+	background-image:url(../img/jieshao.png);
+	}
+.outs{
+	background-image: url(../img/jieshao1.png);
+}
+	/*关于我们*/
+.my{
+	background-image:url(../img/guanyuwomen1.png);
+}
+.mys{
+	background-image: url(../img/guanyuwomen.png);
+}	
+	/*退营须知编辑*/
+.off{
+	background-image:url(../img/yonghuxieyi.png);
+	}	
+.offs{
+	background-image: url(../img/yonghuxieyi1.png);
+}
+/*协议编辑*/
+.round{
+	background-image:url(../img/xuzhi.png);
+}
+.rounds{
+	background-image: url(../img/xuzhi1.png);
+}
+
+	/*后台首页*/
+.safas{
+	background-image: url(../img/shouye.png);
+}
+.safa{
+	background-image: url(../img/shouye1.png);
+}
+/*left end*/
+.right{
+	float: right;
+	padding: 0;
+}
+.rightTop{
+	width: 100%;
+	background-color: #810000;
+	background-image: url(../img/tou.png);
+	height: 3rem;
+	line-height: 3rem;
+	color: #fff;
+	position: relative;
+}
+.rightTop_r{
+	width: 10rem;
+	line-height: 2rem;
+	float: right;
+	padding: 0.5rem;
+	margin-right: 2rem;
+	position: relative;
+}
+.user{
+	max-width: 2rem;
+	max-height: 2rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+.xia{
+	line-height: 2rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.55rem;
+}
+.dogegg{
+	display: block;
+	width: 5.5rem;
+	height: 4.5rem;
+	background: #fff;
+	position: absolute;
+	right: 2rem;
+	bottom: -3.5rem;
+	border-radius: 0.25rem;
+	display: none;
+}
+.dogegg a{
+	display: block;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	height: 0.75rem;
+}
+.dogegg a:nth-of-type(1){
+	color: dodgerblue;
+}
+.dogegg a:nth-of-type(2){
+	color: red;
+}
+
+
+.rightCenter{
+	padding: 0;
+}
+.weizhi{
+	color: #333;
+	margin-left: 0.25rem;
+}
+.current{
+	padding: 1.5rem;
+}
+.laba,.weizhi{
+	float: left;
+	line-height: 1rem;
+	overflow: hidden;
+}

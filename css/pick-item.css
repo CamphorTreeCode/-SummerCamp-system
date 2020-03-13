@@ -1,0 +1,184 @@
+.top {
+	position: relative;
+	width: 96%;
+	height:2.5rem;
+	padding-left: 1rem;
+	line-height: 2.5rem;
+	margin: 0px auto;
+	margin-bottom: 1.5rem;
+	background-color: #FFFFFF;
+	border-radius: 0.25rem;
+}
+.top img {
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5rem;
+	left: 1%;
+}
+.top span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 1.25rem;
+	font-size: 0.9rem;
+}
+
+
+
+
+.up label{
+	display: inline-block;
+	width: 4.5rem;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 2.25rem;
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+
+.head {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.head-img {  
+	width: 88%;
+	height: 8.5rem;
+	background: #fff; 
+	margin-bottom: 0.1rem; 
+	padding: 0.5rem 1rem;
+	
+}
+.head img {
+	width: 2rem;
+	height: 2rem;
+	margin: 2rem;
+}
+.wrap {
+	width: 6rem;
+	height: 6rem;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #C4807F;
+	margin: 0.8rem;
+	cursor: pointer;
+}
+
+
+.item {
+	height:　3rem;
+	margin: 1.5rem 0 4rem 0;
+	position: relative;
+}
+
+
+/*select {
+	padding: 0.5rem 2.5rem;
+	line-height: 2rem;
+	outline: none;
+	border: 0;
+	color: #989898;	
+	border-radius: 0.25rem;
+	font-size: 0.9rem;
+}
+
+option {
+	-webkit-appearance:none;
+    appearance:none;
+    height: 1.6rem;
+    width: 1.5rem;
+    padding: 1rem 0 1rem 2rem;
+    line-height: 1.6rem;
+    padding: 0px 0.25rem;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+option:hover {
+	background-color: red;
+}*/
+.select{
+width: 9.25rem;
+position: absolute;
+top: -44%;
+left: 10%;
+cursor:pointer;
+
+}
+.select_item li{
+	background: #fff;
+	overflow: hidden;
+}
+.select_default{
+width: 10rem;
+height: 2rem;
+line-height: 2rem;
+padding:0 0.5rem;
+border:solid 0.1rem #ccc;
+}
+
+/*这边就是三角形的css代码，使用伪类和定位实现右三角*/
+.select_default:after{
+content:"";
+border-left:0.25rem solid transparent;
+border-right:0.25rem solid transparent;
+border-bottom:0.25rem solid #999;
+-webkit-transform-origin:0.25rem 0.125rem;
+  -moz-transform-origin:0.25rem 0.125rem;
+   -ms-transform-origin:0.25rem 0.125rem;
+-o-transform-origin:0.25rem 0.125rem;
+   transform-origin:0.25rem 0.125rem;
+-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+position:absolute;
+right:0.25rem;
+top:0.7rem;
+}
+.select_default.rotate:after{
+-webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+   -ms-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+   transform:rotate(180deg);
+}
+.select_item{
+margin:0;
+padding:0;
+display:none;
+list-style:none;
+}
+.select_item li{
+width: 7.5rem;
+height: 2rem;
+line-height: 2rem;
+padding:0 0.5rem;
+border:solid 0.1rem #ccc;
+border-top:none;
+margin-left: 2.5rem;
+text-align: center;
+}
+.select_item li.hover{
+background:#666;
+color:#fff;
+}
+
+
+
+
+
+
+
+
+.item img  {
+	float: right;
+	margin-right: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+}
